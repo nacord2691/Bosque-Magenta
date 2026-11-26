@@ -1,0 +1,667 @@
+media:
+  input: assets
+  output: /assets
+content:
+  - name: inicio
+    label: "Inicio"
+    type: file
+    path: content/inicio.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Bosque Magenta · Diseño gráfico y tecnología educativa"
+        type: string
+      - name: texto_002
+        label: "Título — Natalia Córdoba"
+        type: string
+      - name: texto_003
+        label: "Natalia Córdoba · Introducción — Diseño experiencias visuales y recursos educativos que comunic…"
+        type: text
+      - name: texto_004
+        label: "Natalia Córdoba · Texto — Comunicación visual · Diseño editorial · Branding · Recursos e…"
+        type: string
+  - name: portadas
+    label: "Proyectos destacados"
+    type: file
+    path: content/portadas.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Selección de trabajo"
+        type: string
+      - name: texto_002
+        label: "Título — Proyectos destacados"
+        type: string
+      - name: texto_003
+        label: "Proyectos destacados · Introducción — Una muestra de proyectos de diseño, comunicación y tecnología …"
+        type: string
+      - name: texto_004
+        label: "Proyectos destacados · Etiqueta — Maestría en Tecnología Educativa"
+        type: string
+      - name: texto_005
+        label: "Título — Ruta segura en campo"
+        type: string
+      - name: texto_006
+        label: "Ruta segura en campo · Texto — Prototipo bilingüe de seguridad ocupacional desarrollado desde…"
+        type: text
+      - name: texto_007
+        label: "Ruta segura en campo · Etiqueta — Diseño para el aprendizaje · Maestría"
+        type: string
+      - name: texto_008
+        label: "Título — Recursos educativos"
+        type: string
+      - name: texto_009
+        label: "Recursos educativos · Texto — Materiales académicos, infografías, guías y publicaciones dise…"
+        type: string
+      - name: texto_010
+        label: "Recursos educativos · Etiqueta — Social media"
+        type: string
+      - name: texto_011
+        label: "Título — Redes sociales y publicidad digital"
+        type: string
+      - name: texto_012
+        label: "Redes sociales y publicidad digital · Texto — Campañas, publicaciones e historias para marcas, instituciones…"
+        type: string
+      - name: texto_013
+        label: "Redes sociales y publicidad digital · Etiqueta — Comunicación institucional"
+        type: string
+      - name: texto_014
+        label: "Título — Email marketing y comunicación corporativa"
+        type: string
+      - name: texto_015
+        label: "Email marketing y comunicación corporativa · Texto — Invitaciones, banners y piezas institucionales presentadas en …"
+        type: text
+      - name: texto_016
+        label: "Email marketing y comunicación corporativa · Etiqueta — Branding"
+        type: string
+      - name: texto_017
+        label: "Título — Identidad visual"
+        type: string
+      - name: texto_018
+        label: "Identidad visual · Texto — Logotipos y aplicaciones de marca con una presentación clara, …"
+        type: string
+      - name: texto_019
+        label: "Identidad visual · Etiqueta — Editorial"
+        type: string
+      - name: texto_020
+        label: "Título — Diseño editorial e infografías"
+        type: string
+      - name: texto_021
+        label: "Diseño editorial e infografías · Texto — Publicaciones, revistas, catálogos e infografías presentadas c…"
+        type: string
+      - name: texto_022
+        label: "Diseño editorial e infografías · Etiqueta — Producción audiovisual"
+        type: string
+      - name: texto_023
+        label: "Título — Multimedia y video"
+        type: string
+      - name: texto_024
+        label: "Multimedia y video · Texto — Podcast, video y experiencias interactivas vinculadas con la c…"
+        type: string
+      - name: texto_025
+        label: "Multimedia y video · Etiqueta — Fotografía"
+        type: string
+      - name: texto_026
+        label: "Título — Fotografía"
+        type: string
+      - name: texto_027
+        label: "Fotografía · Texto — Naturaleza, paisajes, retrato y fotografía publicitaria: una c…"
+        type: string
+  - name: sobre-mi
+    label: "Sobre mí"
+    type: file
+    path: content/sobre-mi.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Sobre mí"
+        type: string
+      - name: texto_002
+        label: "Título — Diseño con intención"
+        type: string
+      - name: texto_003
+        label: "Diseño con intención · Texto — Soy diseñadora publicitaria con diez años de experiencia en co…"
+        type: text
+      - name: texto_004
+        label: "Diseño con intención · Texto — Mi interés por esta área nació de mi propia experiencia como e…"
+        type: text
+      - name: texto_005
+        label: "Diseño con intención · Texto — Mi propósito es crear experiencias visuales y educativas atrac…"
+        type: text
+      - name: texto_006
+        label: "Título — Formación y experiencia"
+        type: string
+      - name: texto_007
+        label: "Formación y experiencia · Texto — Maestría Profesional en Tecnología Educativa, UNED (en curso).…"
+        type: text
+      - name: texto_008
+        label: "Formación y experiencia · Texto — UNED · 2020–actualidad | Cloud Campus Pro · 2022–2026 | Diseño…"
+        type: text
+  - name: contacto
+    label: "Contacto"
+    type: file
+    path: content/contacto.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Contacto"
+        type: string
+      - name: texto_002
+        label: "Título — ¿Creamos algo con propósito?"
+        type: string
+      - name: texto_003
+        label: "¿Creamos algo con propósito? · Introducción — Estoy disponible para colaborar en proyectos de diseño, aprend…"
+        type: string
+  - name: ruta-segura-en-campo
+    label: "Ruta segura en campo"
+    type: file
+    path: content/ruta-segura-en-campo.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Ruta segura en campo"
+        type: string
+      - name: texto_002
+        label: "Título — Ruta segura en campo"
+        type: string
+      - name: texto_003
+        label: "Ruta segura en campo · Introducción — Manual visual digital, interactivo y bilingüe para la capacita…"
+        type: text
+      - name: texto_004
+        label: "Título — Sobre el proyecto"
+        type: string
+      - name: texto_005
+        label: "Sobre el proyecto · Texto — Recurso educativo dirigido a trabajadores hispanohablantes en …"
+        type: text
+      - name: texto_006
+        label: "Sobre el proyecto · Pie de imagen — Presentación original del recurso"
+        type: string
+  - name: recursos-educativos-y-moodle
+    label: "Recursos educativos"
+    type: file
+    path: content/recursos-educativos-y-moodle.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Recursos educativos"
+        type: string
+      - name: texto_002
+        label: "Título — Recursos educativos"
+        type: string
+      - name: texto_003
+        label: "Recursos educativos · Introducción — Una selección de guías didácticas, recursos interactivos e inf…"
+        type: text
+      - name: texto_004
+        label: "Recursos educativos · Texto — Guía didáctica · Maestría"
+        type: string
+      - name: texto_005
+        label: "Título — ECO-Aventuras"
+        type: string
+      - name: texto_006
+        label: "ECO-Aventuras · Texto — Guía de clasificación de residuos para sexto grado. Autoría y …"
+        type: text
+      - name: texto_007
+        label: "ECO-Aventuras · Texto — Multimedia interactiva · Maestría"
+        type: string
+      - name: texto_008
+        label: "Título — Salvemos el planeta"
+        type: string
+      - name: texto_009
+        label: "Salvemos el planeta · Texto — Proyecto de la Maestría en Tecnología Educativa sobre sostenib…"
+        type: text
+      - name: texto_010
+        label: "Título — Infografía · Fast Fashion y moda sostenible"
+        type: string
+      - name: texto_011
+        label: "Infografía · Fast Fashion y moda sostenible · Texto — Material del proyecto Salvemos el planeta."
+        type: string
+      - name: texto_012
+        label: "Infografía · Fast Fashion y moda sostenible · Texto — Diseño editorial educativo"
+        type: string
+      - name: texto_013
+        label: "Título — Guía de inducción UNED"
+        type: string
+      - name: texto_014
+        label: "Guía de inducción UNED · Texto — Diseño editorial para estudiantes de Ingeniería Informática, 2…"
+        type: string
+      - name: texto_015
+        label: "Guía de inducción UNED · Texto — Comunicación visual educativa"
+        type: string
+      - name: texto_016
+        label: "Título — Infografías educativas"
+        type: string
+      - name: texto_017
+        label: "Infografías educativas · Texto — HyFlex (trabajo colaborativo), liderazgo y transformación digi…"
+        type: string
+      - name: texto_018
+        label: "Infografías educativas · Pie de imagen — Enfoque HyFlex · página 1"
+        type: string
+      - name: texto_019
+        label: "Infografías educativas · Pie de imagen — Cinco claves del liderazgo"
+        type: string
+      - name: texto_020
+        label: "Infografías educativas · Pie de imagen — Transformación digital"
+        type: string
+  - name: multimedia-y-video
+    label: "Multimedia y video"
+    type: file
+    path: content/multimedia-y-video.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Multimedia y video"
+        type: string
+      - name: texto_002
+        label: "Título — Multimedia y video"
+        type: string
+      - name: texto_003
+        label: "Multimedia y video · Introducción — Producción de podcast, video y recursos interactivos orientado…"
+        type: string
+      - name: texto_004
+        label: "Título — CloudCampus PRO · Animación de logo"
+        type: string
+      - name: texto_005
+        label: "CloudCampus PRO · Animación de logo · Texto — Animación de identidad visual con audio · 2025."
+        type: string
+      - name: texto_006
+        label: "Título — Educando sobre tsunamis"
+        type: string
+      - name: texto_007
+        label: "Educando sobre tsunamis · Texto — Podcast educativo · versión de audio."
+        type: string
+      - name: texto_008
+        label: "Título — Podcast educativo"
+        type: string
+      - name: texto_009
+        label: "Podcast educativo · Texto — Recurso audiovisual de la maestría."
+        type: string
+  - name: fotografia
+    label: "Fotografía"
+    type: file
+    path: content/fotografia.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Fotografía"
+        type: string
+      - name: texto_002
+        label: "Título — Fotografía"
+        type: string
+      - name: texto_003
+        label: "Fotografía · Introducción — Una mirada a la naturaleza, la luz y los detalles, junto con e…"
+        type: text
+  - name: infografias-y-diseno-editorial
+    label: "Diseño editorial e infografías"
+    type: file
+    path: content/infografias-y-diseno-editorial.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Infografías y diseño editorial"
+        type: string
+      - name: texto_002
+        label: "Título — Diseño editorial e infografías"
+        type: string
+      - name: texto_003
+        label: "Diseño editorial e infografías · Introducción — Diagramación de publicaciones y organización visual de informa…"
+        type: string
+      - name: texto_004
+        label: "Título — Revista Acontecer Pastor Alemán"
+        type: string
+      - name: texto_005
+        label: "Revista Acontecer Pastor Alemán · Texto — Tercera edición, marzo de 2023. Textos y fotografías de sus re…"
+        type: string
+      - name: texto_006
+        label: "Título — Catálogo de obras"
+        type: string
+      - name: texto_007
+        label: "Catálogo de obras · Texto — Diseño editorial de la colección de óleos de Rafael Chaves Nav…"
+        type: string
+      - name: texto_008
+        label: "Título — Mi Secre Virtual"
+        type: string
+      - name: texto_009
+        label: "Mi Secre Virtual · Texto — Brochure de presentación comercial."
+        type: string
+      - name: texto_010
+        label: "Título — Cloud Campus Pro · materiales impresos y libro para colorear"
+        type: string
+      - name: texto_011
+        label: "Cloud Campus Pro · materiales impresos y libro para colorear · Texto — Material corporativo, promocional y editorial."
+        type: string
+      - name: texto_012
+        label: "Cloud Campus Pro · materiales impresos y libro para colorear · Pie de imagen — Folders corporativos · frente, retiro y solapa interior · dos …"
+        type: string
+      - name: texto_013
+        label: "Cloud Campus Pro · materiales impresos y libro para colorear · Pie de imagen — Stickers Cloud Campus · simulación de uso en WhatsApp"
+        type: string
+      - name: texto_014
+        label: "Cloud Campus Pro · materiales impresos y libro para colorear · Pie de imagen — Volante para familias · mockup de presentación"
+        type: string
+      - name: texto_015
+        label: "Cloud Campus Pro · materiales impresos y libro para colorear · Pie de imagen — Volante institucional · mockup de presentación"
+        type: string
+      - name: texto_016
+        label: "Título — Cici va a la escuela · Libro para colorear"
+        type: string
+      - name: texto_017
+        label: "Cici va a la escuela · Libro para colorear · Texto — Publicación infantil de Cloud Campus Pro."
+        type: string
+  - name: identidad-visual
+    label: "Identidad visual"
+    type: file
+    path: content/identidad-visual.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Identidad visual"
+        type: string
+      - name: texto_002
+        label: "Título — Identidad visual"
+        type: string
+      - name: texto_003
+        label: "Identidad visual · Introducción — Logotipos y aplicaciones de marca."
+        type: string
+      - name: texto_004
+        label: "Identidad visual · Etiqueta — 01 / Proyectos de marca"
+        type: string
+      - name: texto_005
+        label: "Título — Identidades en aplicación"
+        type: string
+      - name: texto_006
+        label: "Identidades en aplicación · Etiqueta — Identidad corporativa · 2022"
+        type: string
+      - name: texto_007
+        label: "Título — ICA · CAC-SC"
+        type: string
+      - name: texto_008
+        label: "ICA · CAC-SC · Texto — Renovación de identidad visual y aplicaciones corporativas par…"
+        type: text
+      - name: texto_009
+        label: "ICA · CAC-SC · Pie de imagen — Presentación de identidad y aplicaciones corporativas"
+        type: string
+      - name: texto_010
+        label: "ICA · CAC-SC · Etiqueta — Identidad corporativa"
+        type: string
+      - name: texto_011
+        label: "Título — ADCON"
+        type: string
+      - name: texto_012
+        label: "ADCON · Texto — Identidad y comunicación de servicios tecnológicos."
+        type: string
+      - name: texto_013
+        label: "ADCON · Pie de imagen — Imagotipo original"
+        type: string
+      - name: texto_014
+        label: "ADCON · Pie de imagen — Papelería corporativa"
+        type: string
+      - name: texto_015
+        label: "ADCON · Etiqueta — 02 / Selección de logotipos"
+        type: string
+      - name: texto_016
+        label: "Título — Colección de identidades"
+        type: string
+      - name: texto_017
+        label: "Colección de identidades · Texto — Una selección de logotipos para distintos proyectos y organiza…"
+        type: string
+      - name: texto_018
+        label: "Colección de identidades · Nombre de marca — Mi Secre Virtual"
+        type: string
+      - name: texto_019
+        label: "Colección de identidades · Texto — Identidad visual para servicios administrativos."
+        type: string
+      - name: texto_020
+        label: "Colección de identidades · Nombre de marca — English in the Rainforest"
+        type: string
+      - name: texto_021
+        label: "Colección de identidades · Texto — Fundación Neotrópica · enseñanza del inglés en zonas rurales."
+        type: string
+      - name: texto_022
+        label: "Colección de identidades · Nombre de marca — Olimpia STEAM"
+        type: string
+      - name: texto_023
+        label: "Colección de identidades · Texto — UNED"
+        type: string
+      - name: texto_024
+        label: "Colección de identidades · Nombre de marca — Ross Shoes"
+        type: string
+      - name: texto_025
+        label: "Colección de identidades · Nombre de marca — ASOPEZ"
+        type: string
+      - name: texto_026
+        label: "Colección de identidades · Nombre de marca — Asociación Horeb"
+        type: string
+      - name: texto_027
+        label: "Colección de identidades · Nombre de marca — Kerygma"
+        type: string
+      - name: texto_028
+        label: "Colección de identidades · Nombre de marca — Mapa de Justicia Ambiental Accesible"
+        type: string
+      - name: texto_029
+        label: "Colección de identidades · Nombre de marca — TeatroTico.com"
+        type: string
+      - name: texto_030
+        label: "Colección de identidades · Nombre de marca — Namubulu"
+        type: string
+      - name: texto_031
+        label: "Colección de identidades · Nombre de marca — Coral Mint"
+        type: string
+      - name: texto_032
+        label: "Colección de identidades · Nombre de marca — Spread Smiles"
+        type: string
+      - name: texto_033
+        label: "Colección de identidades · Nombre de marca — Médica Capacitaciones"
+        type: string
+  - name: contenido-para-redes
+    label: "Redes sociales"
+    type: file
+    path: content/contenido-para-redes.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Redes sociales y publicidad digital"
+        type: string
+      - name: texto_002
+        label: "Título — Redes sociales y publicidad digital"
+        type: string
+      - name: texto_003
+        label: "Redes sociales y publicidad digital · Introducción — Campañas y contenidos digitales organizados por marca. Explorá…"
+        type: text
+      - name: texto_004
+        label: "Título — CloudCampus PRO · Campañas"
+        type: string
+      - name: texto_005
+        label: "CloudCampus PRO · Campañas · Texto — Contenido comercial, testimonios y adaptación de mensajes para…"
+        type: string
+      - name: texto_006
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Vista general del feed de Instagram"
+        type: string
+      - name: texto_007
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Seguimiento académico · publicación"
+        type: string
+      - name: texto_008
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Seguimiento académico · historia"
+        type: string
+      - name: texto_009
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Organiza, planifica y mejora"
+        type: string
+      - name: texto_010
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Feed original · 1"
+        type: string
+      - name: texto_011
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Feed original · 2"
+        type: string
+      - name: texto_012
+        label: "CloudCampus PRO · Campañas · Pie de imagen — Feed original · 3"
+        type: string
+      - name: texto_013
+        label: "Título — CloudCampus PRO · Efemérides"
+        type: string
+      - name: texto_014
+        label: "CloudCampus PRO · Efemérides · Texto — Piezas para fechas especiales y participación de la comunidad …"
+        type: string
+      - name: texto_015
+        label: "CloudCampus PRO · Efemérides · Pie de imagen — Día del Amor y la Amistad"
+        type: string
+      - name: texto_016
+        label: "CloudCampus PRO · Efemérides · Pie de imagen — Día del Niño"
+        type: string
+      - name: texto_017
+        label: "CloudCampus PRO · Efemérides · Pie de imagen — Independencia centroamericana"
+        type: string
+      - name: texto_018
+        label: "CloudCampus PRO · Efemérides · Pie de imagen — Portada navideña de Facebook"
+        type: string
+      - name: texto_019
+        label: "Título — ADCON"
+        type: string
+      - name: texto_020
+        label: "ADCON · Texto — Publicidad para la aplicación de gestión de visitas."
+        type: string
+      - name: texto_021
+        label: "ADCON · Pie de imagen — Plan Premium"
+        type: string
+      - name: texto_022
+        label: "ADCON · Pie de imagen — Lanzamiento de la aplicación"
+        type: string
+      - name: texto_023
+        label: "Título — Mi Secre Virtual"
+        type: string
+      - name: texto_024
+        label: "Mi Secre Virtual · Texto — Serie de publicaciones para servicios de recepción y secretarí…"
+        type: string
+      - name: texto_025
+        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 1"
+        type: string
+      - name: texto_026
+        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 2"
+        type: string
+      - name: texto_027
+        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 3"
+        type: string
+      - name: texto_028
+        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 4"
+        type: string
+      - name: texto_029
+        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 5"
+        type: string
+      - name: texto_030
+        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 6"
+        type: string
+      - name: texto_031
+        label: "Título — Fundación Neotrópica"
+        type: string
+      - name: texto_032
+        label: "Fundación Neotrópica · Texto — Diseño de piezas de comunicación ambiental, divulgación de act…"
+        type: string
+      - name: texto_033
+        label: "Fundación Neotrópica · Pie de imagen — Comunicación ambiental · Fundación Neotrópica"
+        type: string
+      - name: texto_034
+        label: "Título — CAC-SC"
+        type: string
+      - name: texto_035
+        label: "CAC-SC · Texto — Comunicación de la renovación de marca y proyectos agrícolas."
+        type: string
+      - name: texto_036
+        label: "CAC-SC · Pie de imagen — Renovacion de marca"
+        type: string
+      - name: texto_037
+        label: "CAC-SC · Pie de imagen — Campana agricola"
+        type: string
+  - name: comunicacion-corporativa
+    label: "Email marketing y comunicación corporativa"
+    type: file
+    path: content/comunicacion-corporativa.json
+    format: json
+    fields:
+      - name: texto_001
+        label: "Etiqueta — Portafolio / Email marketing y comunicación corporativa"
+        type: string
+      - name: texto_002
+        label: "Título — Email marketing y comunicación corporativa"
+        type: string
+      - name: texto_003
+        label: "Email marketing y comunicación corporativa · Introducción — Invitaciones, banners, eventos y aplicaciones de comunicación …"
+        type: string
+      - name: texto_004
+        label: "Título — Cloud Campus Pro · email marketing"
+        type: string
+      - name: texto_005
+        label: "Cloud Campus Pro · email marketing · Texto — Diseño de correos comerciales y convocatorias."
+        type: string
+      - name: texto_006
+        label: "Cloud Campus Pro · email marketing · Pie de imagen — Tu aliado en la educación · correo para prospectos"
+        type: string
+      - name: texto_007
+        label: "Cloud Campus Pro · email marketing · Pie de imagen — Conectados · invitación al lanzamiento en Honduras"
+        type: string
+      - name: texto_008
+        label: "Cloud Campus Pro · email marketing · Pie de imagen — Correo horizontal · Suscripción a YouTube"
+        type: string
+      - name: texto_009
+        label: "Título — Cloud Campus Pro · eventos y lanzamiento"
+        type: string
+      - name: texto_010
+        label: "Cloud Campus Pro · eventos y lanzamiento · Texto — Piezas para canales digitales y lanzamiento de producto."
+        type: string
+      - name: texto_011
+        label: "Cloud Campus Pro · eventos y lanzamiento · Pie de imagen — Conectados · lanzamiento en Honduras"
+        type: string
+      - name: texto_012
+        label: "Título — Cloud Campus Pro · Día del Maestro"
+        type: string
+      - name: texto_013
+        label: "Cloud Campus Pro · Día del Maestro · Texto — Invitación a participar en la campaña de reconocimiento docent…"
+        type: string
+      - name: texto_014
+        label: "Cloud Campus Pro · Día del Maestro · Pie de imagen — Invitación · Día del Maestro"
+        type: string
+      - name: texto_015
+        label: "Título — UNED · comunicación académica"
+        type: string
+      - name: texto_016
+        label: "UNED · comunicación académica · Texto — Afiches y materiales informativos para actividades universitar…"
+        type: text
+      - name: texto_017
+        label: "UNED · comunicación académica · Pie de imagen — Seminario de Actualización Profesional 2026"
+        type: string
+      - name: texto_018
+        label: "UNED · comunicación académica · Pie de imagen — Global Game Jam 2023"
+        type: string
+      - name: texto_019
+        label: "UNED · comunicación académica · Pie de imagen — Ciencia sin barreras"
+        type: string
+      - name: texto_020
+        label: "UNED · comunicación académica · Pie de imagen — Reconocimiento de asignaturas"
+        type: string
+      - name: texto_021
+        label: "Título — Heladería Don Juan · refrescamiento de marca y lanzamiento de …"
+        type: string
+      - name: texto_022
+        label: "Heladería Don Juan · refrescamiento de marca y lanzamiento de pro · Texto — Proyecto académico de Licenciatura en Diseño Publicitario. Ref…"
+        type: text
+      - name: texto_023
+        label: "Heladería Don Juan · refrescamiento de marca y lanzamiento de pro · Pie de imagen — Diseño de empaque · Paletas de sorbetera"
+        type: string
+      - name: texto_024
+        label: "Heladería Don Juan · refrescamiento de marca y lanzamiento de pro · Pie de imagen — Publicidad impresa · Volante y prensa"
+        type: string
+      - name: texto_025
+        label: "Heladería Don Juan · refrescamiento de marca y lanzamiento de pro · Pie de imagen — Publicidad exterior · Rotulación de autobús"
+        type: string
+      - name: texto_026
+        label: "Título — Banda Municipal de San José"
+        type: string
+      - name: texto_027
+        label: "Banda Municipal de San José · Texto — Propuestas gráficas para uniformes de la Banda Municipal de Sa…"
+        type: text
+      - name: texto_028
+        label: "Banda Municipal de San José · Pie de imagen — Presentación del diseño de uniformes"
+        type: string
+      - name: texto_029
+        label: "Banda Municipal de San José · Pie de imagen — Boceto técnico original"
+        type: string
+      - name: texto_030
+        label: "Banda Municipal de San José · Pie de imagen — Aplicación del uniforme"
+        type: string
