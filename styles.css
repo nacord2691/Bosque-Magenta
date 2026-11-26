@@ -297,3 +297,29 @@ dialog p{font-size:18px;margin:10px 0 0;text-align:center;color:var(--ink)}
 
 
 .edu-detail .detail-preview{margin:28px auto 36px;max-width:1050px;border-radius:12px;overflow:hidden;background:#eddae0}.edu-detail .detail-preview img{display:block!important;width:100%!important;max-width:none!important;height:auto!important;object-fit:contain!important}.edu-detail .case{border-top:1px solid #e9dfe2;margin:42px 0;padding:32px 0}.edu-detail .case h2{font-size:clamp(27px,3.1vw,40px);margin:6px 0 12px}.edu-detail .case-desc{max-width:800px;font-size:19px;line-height:1.6;margin-bottom:22px}.edu-detail .edu-kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#8a6577;margin:0 0 8px}.edu-index{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 30px}.edu-index a{background:#f9f2f4;border:1px solid #ead8df;border-radius:5px;padding:10px 14px;color:#725264;text-decoration:none}.edu-index a:hover{background:#ecd8e0}.edu-original{max-width:850px;margin:28px auto}.edu-original figure{margin:0}.edu-original img{width:100%;height:auto;display:block;border:1px solid #ebdfe4;border-radius:6px}.edu-original figcaption{margin:12px 0;font-size:15px}.edu-feature{max-width:900px;margin:24px auto}.edu-feature img{width:100%;height:auto;display:block;border-radius:10px}.edu-detail .book-view{margin:24px auto;max-width:950px;background:#f7f1f3;border-radius:10px;padding:20px}.edu-detail .book-stage{background:transparent}.edu-interactive{margin:18px 0;background:#f8f3f5;border:1px solid #e8dce1;border-radius:8px;padding:12px 18px}.edu-interactive summary{color:#765464;cursor:pointer;padding:8px 0}.edu-interactive .embed{margin:12px 0!important}.edu-detail .btn{margin:10px 0 16px}.edu-detail .uned-gallery{gap:22px}.edu-detail .environment-infographic{margin:18px 0}.edu-detail .environment-infographic .device-stage{min-height:0}.edu-detail .environment-infographic .device-screen img{height:auto!important;max-height:none!important}.cover[href="#view-ruta-segura-en-campo"] img,.cover[href="#view-recursos-educativos-y-moodle"] img{object-fit:contain!important;background:#eddae0}.edu-detail .case-index a:focus-visible,.edu-interactive summary:focus-visible{outline:2px solid #8c2d46;outline-offset:3px}@media(max-width:700px){.edu-detail .case{margin:25px 0;padding:22px 0}.edu-detail .book-view{padding:10px}.edu-detail .case-desc{font-size:17px}.edu-index a{font-size:14px;padding:8px 10px}}
+
+
+/* Redes sociales: mockups a ancho completo, unificados y sin recortar las artes. */
+#view-contenido-para-redes .social-showcase,
+#view-contenido-para-redes .social-showcase.social-double,
+#view-contenido-para-redes .email-showcase.single {
+  display:grid!important; grid-template-columns:minmax(0,1fr)!important;
+  width:100%; max-width:none!important; gap:24px; margin:24px 0;
+}
+#view-contenido-para-redes .neo-composition {width:100%;max-width:none;margin:24px 0;}
+#view-contenido-para-redes .social-mockup,
+#view-contenido-para-redes .neo-composition > a.zoom,
+#view-contenido-para-redes .email-piece .mockup-display {
+  display:block!important; width:100%!important; max-width:none!important;
+  height:auto!important; min-height:0!important; max-height:none!important;
+  aspect-ratio:auto!important; padding:0!important; margin:0!important;
+  border:0!important; border-radius:12px!important; overflow:hidden!important;
+  background:transparent!important; box-shadow:0 12px 32px #79536420!important;
+}
+#view-contenido-para-redes .social-mockup img,
+#view-contenido-para-redes .neo-composition img,
+#view-contenido-para-redes .email-piece .mockup-display img {
+  display:block!important; width:100%!important; max-width:100%!important;
+  height:auto!important; max-height:none!important; min-height:0!important;
+  object-fit:contain!important; object-position:center!important; transform:none!important;
+}

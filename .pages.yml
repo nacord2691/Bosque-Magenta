@@ -488,12 +488,6 @@ content:
       - name: texto_020
         label: "ADCON · Texto — Publicidad para la aplicación de gestión de visitas."
         type: string
-      - name: texto_021
-        label: "ADCON · Pie de imagen — Plan Premium"
-        type: string
-      - name: texto_022
-        label: "ADCON · Pie de imagen — Lanzamiento de la aplicación"
-        type: string
       - name: texto_023
         label: "Título — Mi Secre Virtual"
         type: string
@@ -514,12 +508,6 @@ content:
         type: string
       - name: texto_035
         label: "CAC-SC · Texto — Comunicación de la renovación de marca y proyectos agrícolas."
-        type: string
-      - name: texto_036
-        label: "CAC-SC · Pie de imagen — Renovacion de marca"
-        type: string
-      - name: texto_037
-        label: "CAC-SC · Pie de imagen — Campana agricola"
         type: string
   - name: comunicacion-corporativa
     label: "Email marketing y comunicación corporativa"
