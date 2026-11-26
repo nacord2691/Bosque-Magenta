@@ -473,27 +473,6 @@ content:
       - name: texto_005
         label: "CloudCampus PRO · Campañas · Texto — Contenido comercial, testimonios y adaptación de mensajes para…"
         type: string
-      - name: texto_006
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Vista general del feed de Instagram"
-        type: string
-      - name: texto_007
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Seguimiento académico · publicación"
-        type: string
-      - name: texto_008
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Seguimiento académico · historia"
-        type: string
-      - name: texto_009
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Organiza, planifica y mejora"
-        type: string
-      - name: texto_010
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Feed original · 1"
-        type: string
-      - name: texto_011
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Feed original · 2"
-        type: string
-      - name: texto_012
-        label: "CloudCampus PRO · Campañas · Pie de imagen — Feed original · 3"
-        type: string
       - name: texto_013
         label: "Título — CloudCampus PRO · Efemérides"
         type: string
