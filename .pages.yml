@@ -479,15 +479,6 @@ content:
       - name: texto_014
         label: "CloudCampus PRO · Efemérides · Texto — Piezas para fechas especiales y participación de la comunidad …"
         type: string
-      - name: texto_015
-        label: "CloudCampus PRO · Efemérides · Pie de imagen — Día del Amor y la Amistad"
-        type: string
-      - name: texto_016
-        label: "CloudCampus PRO · Efemérides · Pie de imagen — Día del Niño"
-        type: string
-      - name: texto_017
-        label: "CloudCampus PRO · Efemérides · Pie de imagen — Independencia centroamericana"
-        type: string
       - name: texto_018
         label: "CloudCampus PRO · Efemérides · Pie de imagen — Portada navideña de Facebook"
         type: string
@@ -508,24 +499,6 @@ content:
         type: string
       - name: texto_024
         label: "Mi Secre Virtual · Texto — Serie de publicaciones para servicios de recepción y secretarí…"
-        type: string
-      - name: texto_025
-        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 1"
-        type: string
-      - name: texto_026
-        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 2"
-        type: string
-      - name: texto_027
-        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 3"
-        type: string
-      - name: texto_028
-        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 4"
-        type: string
-      - name: texto_029
-        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 5"
-        type: string
-      - name: texto_030
-        label: "Mi Secre Virtual · Pie de imagen — Publicación promocional · 6"
         type: string
       - name: texto_031
         label: "Título — Fundación Neotrópica"
