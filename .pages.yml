@@ -290,6 +290,60 @@ content:
       - name: texto_003
         label: "Fotografía · Introducción — Una mirada a la naturaleza, la luz y los detalles, junto con e…"
         type: text
+      - name: titulo_foto_17
+        label: "Fotografía 17 · El arte de la calma"
+        type: string
+      - name: titulo_foto_03
+        label: "Fotografía 03 · Dulce tentación"
+        type: string
+      - name: titulo_foto_08
+        label: "Fotografía 08 · El último resplandor"
+        type: string
+      - name: titulo_foto_11
+        label: "Fotografía 11 · Azul entre verdes"
+        type: string
+      - name: titulo_foto_06
+        label: "Fotografía 06 · Danza del viento"
+        type: string
+      - name: titulo_foto_19
+        label: "Fotografía 19 · Entre sueños y torres"
+        type: string
+      - name: titulo_foto_09
+        label: "Fotografía 09 · Sinfonía en rosa"
+        type: string
+      - name: titulo_foto_01
+        label: "Fotografía 01 · El sendero encantado"
+        type: string
+      - name: titulo_foto_02
+        label: "Fotografía 02 · Universo de cristal"
+        type: string
+      - name: titulo_foto_18
+        label: "Fotografía 18 · Curiosidad silvestre"
+        type: string
+      - name: titulo_foto_07
+        label: "Fotografía 07 · El sol a través del cristal"
+        type: string
+      - name: titulo_foto_14
+        label: "Fotografía 14 · Geometría luminosa"
+        type: string
+      - name: titulo_foto_04
+        label: "Fotografía 04 · Camino al horizonte"
+        type: string
+      - name: titulo_foto_15
+        label: "Fotografía 15 · Pequeño guardián de la arena"
+        type: string
+      - name: titulo_foto_10
+        label: "Fotografía 10 · Primavera en flor"
+        type: string
+      - name: titulo_foto_05
+        label: "Fotografía 05 · Hacia el cielo"
+        type: string
+      - name: titulo_foto_16
+        label: "Fotografía 16 · Instantes de luz"
+        type: string
+      - name: titulo_foto_13
+        label: "Fotografía 13 · Susurros del ocaso"
+        type: string
   - name: infografias-y-diseno-editorial
     label: "Diseño editorial e infografías"
     type: file

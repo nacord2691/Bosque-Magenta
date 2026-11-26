@@ -323,3 +323,10 @@ dialog p{font-size:18px;margin:10px 0 0;text-align:center;color:var(--ink)}
   height:auto!important; max-height:none!important; min-height:0!important;
   object-fit:contain!important; object-position:center!important; transform:none!important;
 }
+
+
+/* Títulos editoriales de la colección fotográfica */
+#view-fotografia .unified-photo-grid figcaption {
+  display:block; margin:9px 0 0; padding:0 2px; font-size:17px;
+  line-height:1.4; color:#755565; font-weight:400; text-align:left;
+}
